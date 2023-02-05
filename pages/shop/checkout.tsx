@@ -30,8 +30,8 @@ export default function Checkout() {
   // Unique address that we can listen for payments to
   const reference = useMemo(() => Keypair.generate().publicKey, [])
 
-  // Get a connection to Solana devnet
-  const network = WalletAdapterNetwork.Devnet
+  // Get a connection to Solana mainnet
+  const network = WalletAdapterNetwork.mainnet
   const endpoint = clusterApiUrl(network)
   const connection = new Connection(endpoint)
 

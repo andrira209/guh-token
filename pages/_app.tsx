@@ -12,8 +12,8 @@ import { PhantomWalletAdapter, SolflareWalletAdapter } from '@solana/wallet-adap
 require('@solana/wallet-adapter-react-ui/styles.css');
 
 function MyApp({ Component, pageProps }: AppProps) {
-  // The network can be set to 'devnet', 'testnet', or 'mainnet-beta'.
-  const network = WalletAdapterNetwork.Devnet;
+  // The network can be set to 'mainnet', 'testnet', or 'mainnet-beta'.
+  const network = WalletAdapterNetwork.mainnet;
 
   // You can also provide a custom RPC endpoint.
   const endpoint = clusterApiUrl(network);

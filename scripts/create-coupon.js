@@ -7,7 +7,7 @@ import base58 from 'bs58'
 import 'dotenv/config'
 
 // Initialise Solana connection
-const network = WalletAdapterNetwork.Devnet
+const network = WalletAdapterNetwork.mainnet
 const endpoint = clusterApiUrl(network)
 const connection = new Connection(endpoint)
 
