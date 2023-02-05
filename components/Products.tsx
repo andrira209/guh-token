@@ -46,7 +46,7 @@ export default function Products({ submitTarget, enabled }: Props) {
           className="max-w-fit items-center self-center rounded-md bg-gray-900 px-20 py-2 text-white hover:scale-105 disabled:cursor-not-allowed disabled:opacity-50"
           disabled={!enabled}
         >
-          Checkout
+          Buy And Hold
         </button>
       </div>
     </form>

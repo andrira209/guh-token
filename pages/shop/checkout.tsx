@@ -41,7 +41,7 @@ export default function Checkout() {
     splToken: usdcAddress,
     amount,
     reference,
-    label: 'Cookies Inc',
+    label: 'GUH',
     message: 'Thanks for your order! 🍪',
   }
 
