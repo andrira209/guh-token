@@ -8,11 +8,6 @@ export const products = [
     priceUsd: 5,
   },
   {
-    id: 'PRESALE LUFFY',
-    name: 'LUFFY',
-    description: 'Minimal Buy GUH Phase 2',
-    unitName: 'GUH',
-    priceSol: 1,
-    priceUsd: 10,
+    
   }
 ]
