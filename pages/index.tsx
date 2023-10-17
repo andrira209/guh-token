@@ -10,7 +10,7 @@ export default function HomePage() {
 
   return (
     <div className="m-auto flex max-w-4xl flex-col items-stretch gap-8 pt-24">
-      <SiteHeading>$GUH TOKEN</SiteHeading>
+      <SiteHeading>$LUFFY COIN</SiteHeading>
 
       {/* We add the Solana wallet connect button */}
       <div className="basis-1/4">

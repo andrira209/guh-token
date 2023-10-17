@@ -41,7 +41,7 @@ export default function Checkout() {
     splToken: usdcAddress,
     amount,
     reference,
-    label: 'GUH',
+    label: 'LUFFY',
     message: 'Thanks for your order! 🍪',
   }
 

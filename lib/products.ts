@@ -1,18 +1,18 @@
 export const products = [
   {
-    id: 'box-of-cookies',
-    name: 'PRESALE',
-    description: 'Minimal Buy GUH Phase 1',
-    unitName: 'Presale', // Minimal Buy GUH Phase 1
+    id: 'CLEAM LUFFY',
+    name: 'CLEAM',
+    description: 'Minimal Buy LUFFY Phase 1',
+    unitName: 'PRESALE', // Minimal Buy LUFFY Phase 1
     priceSol: 0.5,
     priceUsd: 5,
   },
   {
-    id: 'PRESALE GUH',
-    name: 'GUH',
+    id: 'PRESALE LUFFY',
+    name: 'LUFFY',
     description: 'Minimal Buy GUH Phase 2',
     unitName: 'GUH',
-    priceSol: 0.5,
+    priceSol: 1,
     priceUsd: 10,
   }
 ]
